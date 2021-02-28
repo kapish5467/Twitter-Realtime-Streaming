@@ -108,7 +108,7 @@ class TweetStreamListener(tweepy.StreamListener):
             global count
             count=count+1
             print(count)
-            if(count>50):
+            if(count>200):
                 stream.disconnect()
         
        
